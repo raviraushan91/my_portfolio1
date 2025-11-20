@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Raushan Kumar | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background pattern -->
+    <div class="web-pattern"></div>
+
+    <!-- Custom Cursor Glow -->
+    <div class="cursor-glow" id="cursor-glow"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="nav-logo">
+                <div class="logo-circle">
+                    <img src="logo of rrk.png" alt="logo" class="logo-image">
+                    <!-- <span class="logo-text">RR</span> -->
+                </div>
+                <div class="logo-full">Ravi Raushan Kumar</div>
+            </div>
+
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#downabout">About</a></li>
+                <li><a href="cv.html" target="_blank">Resume</a></li>
+                <li><a href="#certificate">Certificate</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-container">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fa fa-moon"></i>
+                <i class="fa fa-sun"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero / Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-left">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Ravi Raushan Kumar</h1>
+
+                        <div class="dynamic-title">
+                            <span>I am a</span>
+                            <span class="dynamic-text" id="dynamic-text"></span>
+                            <span class="cursor"></span>
+                        </div>
+
+                        <p class="hero-description">
+                            Motivated and detail-oriented BTech CSE 2nd year student. Passionate about
+                            <strong>Web Development, Frontend, UX</strong> and <strong>Problem Solving</strong>.
+                        </p>
+
+                        <div class="hero-buttons">
+                            <a href="RAVI_RAUSHAN_KUMAR_RESUME.pdf" class="btn btn-primary" download>
+                                Download Resume
+                            </a>
+                        </div>
+
+                        <div class="social-links">
+                            <a class="social-link" href="https://www.linkedin.com/in/ravi-raushan-kumar-a61109292"
+                                target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a class="social-link" href="https://github.com/raviraushan91" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                            <a class="social-link" href="https://t.me/Raushanprabha" target="_blank">
+                                <i class="fa fa-telegram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="image-container">
+                        <div class="image-background"></div>
+                        <img src="photo.png" alt="Ravi Raushan kumar" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="downabout" class="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-container">
+                <div class="about-text">
+                    <p>
+                        I am an aspiring <strong>Machine Learning Engineer</strong> and <strong>Full-Stack
+                            Developer</strong> with a strong foundation in core computer science,
+                        data structures, algorithms, and modern software development practices. I enjoy working on
+                        real-world problems and transforming ideas into
+                        scalable, high-performance applications with clean, efficient code.
+                    </p>
+
+                    <p>
+                        My technical skillset includes <strong>Python</strong> for ML workflows, using tools like
+                        <strong>NumPy, Pandas, Scikit-Learn, Matplotlib</strong>, along with essential concepts of
+                        data preprocessing, model training, and evaluation. As a full-stack developer, I build
+                        responsive and interactive interfaces using
+                        <strong>HTML, CSS, JavaScript, React.js</strong> and develop secure, optimized backend systems
+                        using <strong>Node.js, Express.js, PHP, MySQL, and MongoDB</strong>.
+                    </p>
+
+                    <p>
+                        I aim to grow as a versatile engineer who can combine machine learning intelligence with modern
+                        web technologies to create impactful digital
+                        solutions. Driven by curiosity and continuous learning, I actively seek opportunities to work on
+                        challenging projects, enhance user experience,
+                        and contribute to meaningful innovations in the field of technology.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+        <!-- skills  -->
+        <section id="skills" class="skills">
+            <div class="section-content">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-container">
+                    <!-- Programming Languages -->
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/python.jpg" alt="Python" width="55" height="55">
+                        </div>
+                        <h3>Python</h3>
+                        <p>Data analysis, machine learning, and automation</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/js.png" alt="JavaScript" width="55" height="55">
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>ES6+, DOM manipulation, and modern frameworks</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/ts.png" alt="TypeScript" width="55" height="55">
+                        </div>
+                        <h3>TypeScript</h3>
+                        <p>Type-safe JavaScript development</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/c.png" alt="C/C++" width="55" height="55">
+                        </div>
+                        <h3>C/C++</h3>
+                        <p>System programming and performance optimization</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/html.png" alt="HTML5" width="55" height="55">
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>Semantic markup and modern web standards</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/css.png" alt="CSS3" width="55" height="55">
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>Responsive design and animations</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/sql.png" alt="SQL" width="55" height="55">
+                        </div>
+                        <h3>SQL</h3>
+                        <p>Database design and query optimization</p>
+                    </div>
+
+                    <!-- Web Development -->
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/react.jpg" alt="React.js" width="55" height="55">
+                        </div>
+                        <h3>React.js</h3>
+                        <p>Component-based UI development</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/next.png" alt="Next.js" width="55" height="55">
+                        </div>
+                        <h3>Next.js</h3>
+                        <p>Server-side rendering and static site generation</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/express.png" alt="Express.js" class="express-light" width="55" height="55">
+                        </div>
+                        <h3>Express.js</h3>
+                        <p>RESTful API development and middleware</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/node.png" alt="Node.js" width="55" height="55">
+                        </div>
+                        <h3>Node.js</h3>
+                        <p>Server-side JavaScript runtime</p>
+                    </div>
+
+                    <!-- Frontend Frameworks -->
+
+                    <!-- Machine Learning -->
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/scikit.png" alt="scikit-learn" width="55" height="55">
+                        </div>
+                        <h3>scikit-learn</h3>
+                        <p>Machine learning algorithms and model development</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/tensorflow.png" alt="TensorFlow" width="55" height="55">
+                        </div>
+                        <h3>TensorFlow</h3>
+                        <p>Deep learning and neural network development</p>
+                    </div>
+
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/pytorch.png" alt="PyTorch" width="55" height="55">
+                        </div>
+                        <h3>PyTorch</h3>
+                        <p>Deep learning framework with dynamic computation graphs</p>
+                    </div>
+
+                    <!-- Data Science -->
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/opencv.png" alt="OpenCV" width="55" height="55">
+                        </div>
+                        <h3>OpenCV</h3>
+                        <p>Computer vision and image processing</p>
+                    </div>
+
+                    <!-- Tools & Platforms -->
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/stream.png" alt="Streamlit" width="55" height="55">
+                        </div>
+                        <h3>Streamlit</h3>
+                        <p>Data app development and deployment</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/firebase.png" alt="Firebase" width="55" height="55">
+                        </div>
+                        <h3>Firebase</h3>
+                        <p>Backend services and real-time database</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/mongo.jpg" alt="MongoDB" width="55" height="55">
+                        </div>
+                        <h3>MongoDB</h3>
+                        <p>NoSQL database management</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/postgre.png" alt="PostgreSQL" width="55" height="55">
+                        </div>
+                        <h3>PostgreSQL</h3>
+                        <p>Reliable relational database for web applications/p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/git.png" alt="Git" width="55" height="55">
+                        </div>
+                        <h3>Git</h3>
+                        <p>Version control and collaboration</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/github.png" alt="GitHub" class="github-light" width="55" height="55">
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Code hosting and project management</p>
+                    </div>
+                    <div class="skill-block">
+                        <div class="skill-icon">
+                            <img src="images/postman.png" alt="Postman" width="55" height="55">
+                        </div>
+                        <h3>Postman</h3>
+                        <p>API testing and development</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificate Section -->
+        <section id="certificate" class="certificates">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <img src="ravi kumar_AI_APPRECIATE_CERTIFICATE.png" alt="Web Development Certificate"
+                        class="certificate-image">
+                </div>
+                <div class="certificate-card">
+                    <img src="ravi kumar_AI_AWARE_CERTIFICATE.png" alt="HTML & CSS Certificate"
+                        class="certificate-image">
+                </div>
+                <div class="certificate-card">
+                    <img src="1763635309781.png" alt="Python Certificate" class="certificate-image">
+                </div>
+                <div class="certificate-card">
+                    <img src="ai.jpeg" alt="AI Certificate" class="certificate-image">
+                </div>
+                <div class="certificate-card">
+                    <img src="CERTI.png" alt="DSA Certificate" class="certificate-image">
+                </div>
+                <div class="certificate-card">
+                    <img src="IMG-20251028-WA0043.jpg" alt="Competitive Programming Certificate"
+                        class="certificate-image">
+                </div>
+
+                <div class="certificate-card">
+                    <img src="js.jpeg" alt="JavaScript Certificate" class="certificate-image">
+                </div>
+                <div class="certificate-card">
+                    <img src="react js.jpeg" alt="React JS Certificate" class="certificate-image">
+                </div>
+                <div class="certificate-card">
+                    <img src="php.jpeg" alt="PHP Certificate" class="certificate-image">
+                </div>
+                <div class="certificate-card">
+                    <img src="php.jpeg" alt="Certificate" class="certificate-image">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects-grid">
+                <!-- 1st project -->
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3 class="project-title">Personal Portfolio</h3>
+                            <p class="project-description">
+                                Personal portfolio website showcasing skills, certificates, and projects
+                                with an interactive gaming-inspired UI.
+                            </p>
+                            <div class="project-buttons">
+                                <a href="https://github.com/raviraushan91/eduvarce" class="project-btn code-btn"> View
+                                    Code</a>
+                                <a href="" class="project-btn live-btn"> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 2nd project card -->
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3 class="project-title">Educa</h3>
+                            <p class="project-description">
+                                Personal portfolio website showcasing skills, certificates, and projects with an
+                                interactive gaming-inspired UI.
+                            </p>
+                            <div class="project-buttons">
+                                <a href="https://github.com/raviraushan91/e_learnig.web/tree/main/learning/2nd"
+                                    class="project-btn code-btn"> View
+                                    Code</a>
+                                <a href="" class="project-btn live-btn"> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd project card -->
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3 class="project-title">Nikhaar Plus</h3>
+                            <p class="project-description">
+                                Personal portfolio website showcasing skills, certificates, and projects with an
+                                interactive gaming-inspired UI.
+                            </p>
+                            <div class="project-buttons">
+                                <a href="https://github.com/raviraushan91/eduvarce" class="project-btn code-btn"> View
+                                    Code</a>
+                                <a href="" class="project-btn live-btn"> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4th project card -->
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3 class="project-title">EventNest</h3>
+                            <p class="project-description">
+                                Personal portfolio website showcasing skills, certificates, and projects with an
+                                interactive gaming-inspired UI.
+                            </p>
+                            <div class="project-buttons">
+                                <a href="https://github.com/raviraushan91/eduvarce" class="project-btn code-btn"> View
+                                    Code</a>
+                                <a href="" class="project-btn live-btn"> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5th project card -->
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3 class="project-title">Crop Recommendation</h3>
+                            <p class="project-description">
+                                Web app for appointments, prescriptions, and records using PHP, MySQL, and TCPDF.
+                            </p>
+                            <div class="project-buttons">
+                                <a href="https://github.com/raviraushan91/crop_recommendation"
+                                    class="project-btn code-btn"> View
+                                    Code</a>
+                                <a href="" class="project-btn live-btn"> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6th project card -->
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3 class="project-title">Chaloochale</h3>
+                            <p class="project-description">
+                                Shortest path based map navigation system focusing on efficient route calculation.
+                            </p>
+                            <div class="project-buttons">
+                                <a href="https://github.com/raviraushan91/eduvarce" class="project-btn code-btn"> View
+                                    Code</a>
+                                <a href="" class="project-btn live-btn"> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 7th project card -->
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3 class="project-title">Krishivaa</h3>
+                            <p class="project-description">
+                                Shortest path based map navigation system focusing on efficient route calculation.
+                            </p>
+                            <div class="project-buttons">
+                                <a href="https://github.com/raviraushan91/krishivaa" class="project-btn code-btn"> View
+                                    Code</a>
+                                <a href="" class="project-btn live-btn"> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 8th project card -->
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3 class="project-title">Eduvarce</h3>
+                            <p class="project-description">
+                                Shortest path based map navigation system focusing on efficient route calculation.
+                            </p>
+                            <div class="project-buttons">
+                                <a href="https://github.com/raviraushan91/eduvarce" class="project-btn code-btn"> View
+                                    Code</a>
+                                <a href="" class="project-btn live-btn"> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 8th project card -->
+                <div class="project-card">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3 class="project-title">Map Navigation Project</h3>
+                            <p class="project-description">
+                                Shortest path based map navigation system focusing on efficient route calculation.
+                            </p>
+                            <div class="project-buttons">
+                                <a href="https://github.com/raviraushan91/e_learnig.web/tree/main" class="project-btn code-btn"> View
+                                    Code</a>
+                                <a href="" class="project-btn live-btn"> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Contact Section -->
+        <section id="contact-container" class="contact-section">
+            <div class="section-header">
+                <h2>Contact Support</h2>
+                <p class="section-subtitle">Have any issue, doubt, or project idea? Let’s connect.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="card-icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>Reach out to me with your queries.</p>
+                        <a class="contact-link" href="mailto:ravikumar557341@gmail.com">Send Email</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>Reach out to me with your queries.</p>
+                    <a class="contact-link" href="tel: +91 9135513414">Call Now</a>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <div class="form-header">
+                    <h3>Support / Contact Form</h3>
+                    <p>Fill the form below, I’ll get back to you soon.</p>
+                </div>
+
+                <form action="submit_support_request.php" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" required>
+                            <label for="name">Full Name</label>
+                            <span class="form-line"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" required>
+                            <label for="email">Email Address</label>
+                            <span class="form-line"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="issue" name="issue" rows="5" required></textarea>
+                        <label for="issue">Describe your issue or question</label>
+                        <span class="form-line"></span>
+                    </div>
+
+                    <div class="form-footer">
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            Submit
+                            <i class="fa fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo-circle">
+                    <span class="logo-text">R</span>
+                </div>
+                <div class="logo-full">Ravi Raushan</div>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#downabout">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact-container">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a class="social-link" href="https://www.linkedin.com/in/ravi-raushan-kumar-a61109292"
+                    target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="social-link" href="https://github.com/raviraushan91" target="_blank"><i
+                        class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Ravi Raushan Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS: Theme Toggle, Typing, Cursor, Mobile Nav -->
+    <script>
+        // THEME TOGGLE
+        const root = document.documentElement;
+        const themeToggle = document.getElementById('theme-toggle');
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        root.setAttribute('data-theme', savedTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            root.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+        });
+
+        // MOBILE NAV
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // DYNAMIC TEXT (TYPING)
+        const roles = ["Web Developer", "Frontend Developer", "UX Designer"];
+        const dynamicText = document.getElementById('dynamic-text');
+        let roleIndex = 0;
+        let charIndex = 0;
+        let deleting = false;
+
+        function typeEffect() {
+            const current = roles[roleIndex];
+
+            if (!deleting) {
+                dynamicText.textContent = current.slice(0, charIndex++);
+                if (charIndex > current.length) {
+                    deleting = true;
+                    setTimeout(typeEffect, 1200);
+                    return;
+                }
+            } else {
+                dynamicText.textContent = current.slice(0, charIndex--);
+                if (charIndex === 0) {
+                    deleting = false;
+                    roleIndex = (roleIndex + 1) % roles.length;
+                }
+            }
+            setTimeout(typeEffect, deleting ? 60 : 120);
+        }
+        typeEffect();
+
+        // CURSOR GLOW
+        const cursorGlow = document.getElementById('cursor-glow');
+        document.addEventListener('mousemove', (e) => {
+            cursorGlow.style.left = e.clientX + 'px';
+            cursorGlow.style.top = e.clientY + 'px';
+        });
+
+        // Close nav on link click (mobile)
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
